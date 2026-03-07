@@ -15,8 +15,8 @@
     
     --image: var(--soft);
     
-    --background: #f5f5f5;
-    --text: #222222;
+    --background: #010101e4;
+    --text: #c41919;
     
     --light: var(--background);
     --dark: var(--text);
