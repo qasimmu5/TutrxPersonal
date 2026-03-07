@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
+        <title>Contact & Support</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html" class="active">Contact & Support</a>
+        </nav>
+
+        <h1>Contact & Support</h1>
+        <p>Have a question, idea, or just want to say hello? Fill out the form below and I'll get back to you as soon as possible.</p>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+            <br>
+            <label for="message">Message</label>
+            <input id="message" name="message" placeholder="How can I help you?" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <h2>Other ways to reach me</h2>
+        <ul>
+            <li>Connect on <a href="https://www.linkedin.com/in/qasim-muhammad-8b6ab71b3/" target="_blank">LinkedIn</a></li>
+            <li>Response time is typically within 48 hours</li>
+        </ul>
+
+        <h2>FAQ</h2>
+        <ul>
+            <li><strong>How can I collaborate with you?</strong> — Send me a message through the form above or reach out on LinkedIn with your idea.</li>
+            <li><strong>Are you open to new opportunities?</strong> — Always happy to hear about interesting projects and opportunities!</li>
+            <li><strong>How do I subscribe to your newsletter?</strong> — Head over to the <a href="index.html">home page</a> and enter your email to join.</li>
+        </ul>
+    </body>
+</html>
