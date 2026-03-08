@@ -41,6 +41,11 @@ a {
     color: var(--text);
 }
 
+.about-list {
+    margin: 0;
+    padding-left: 40px;
+}
+
 input {
     display: block;
     margin: 20px 0 0;
