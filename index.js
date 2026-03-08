@@ -5,10 +5,10 @@
 favouriteMovieGenre("military")
 
 // watermelon, tomato, banana, orange, avocado, blueberry
-favouriteFruit("blueberry")
+favouriteFruit("")
 
 // light, dark
-favouriteMode("dark")
+favouriteMode("light")
 
 // sharp, soft, round
 favouriteEdgeStyle("sharp")
@@ -81,8 +81,7 @@ function favouriteFruit(theme) {
         setProp('--light', "#41a8f9")
         setProp('--dark', "#064490")
     } else  {
-        setProp('--light', "#f5f5f5")
+        setProp('--light', "#ffffff")
         setProp('--dark', "#222222")
     } 
 }
-
